@@ -1,0 +1,10 @@
+
+.footer_span{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+p{
+    margin-left: 40%;
+    color: white;
+}

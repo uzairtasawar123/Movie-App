@@ -1,0 +1,21 @@
+.movie_detail_img{
+    box-shadow: 0px 0px 10px 10px grey;
+    border-radius: 3%;
+    transition: all 2s;
+    animation-name: change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+
+@keyframes change{
+    0%{transform: scale(1);}
+    10%{transform: scale(1.02);}
+    20%{transform: scale(1.04);}
+    40%{transform: scale(1.06);}
+    60%{transform: scale(1.04);}
+    80%{transform: scale(1.02);}
+    100%{transform: scale(1);}
+} 

@@ -1,0 +1,15 @@
+.main_div{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.movie_cards{
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.movie_cards:hover{
+    transform: scale(1.1);
+
+}
+.diff_color{
+    color: rgb(15, 140, 224);
+}
